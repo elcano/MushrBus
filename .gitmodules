@@ -1,0 +1,3 @@
+[submodule "MicroAV"]
+	path = MicroAV
+	url = https://github.com/YoungJonathanP/MicroAV
