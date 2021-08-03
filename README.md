@@ -7,3 +7,5 @@ The MuSHR Bus is a scale model of the modular bus: http://viewer.zmags.com/publi
 1) Accelerating from a parked state to join onto the rear of the bus platoon
 2) Driving bumper-to-bumper when platooned with vehicles exerting minimal force on each other
 3) Seoarating from and leaving the platoon at the destination bus stop
+
+Install scripts and vehicle image setup found in **MicroAV** folder
