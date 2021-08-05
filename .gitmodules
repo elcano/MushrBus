@@ -7,3 +7,6 @@
 [submodule "jetson-module"]
 	path = jetson-module
 	url = https://github.com/alexlin2/jetson-module.git
+[submodule "mushr_ackermann_drive"]
+	path = mushr_ackermann_drive
+	url = https://github.com/alexlin2/mushr_ackermann_drive.git
