@@ -8,4 +8,12 @@ The MuSHR Bus is a scale model of the modular bus: http://viewer.zmags.com/publi
 2) Driving bumper-to-bumper when platooned with vehicles exerting minimal force on each other
 3) Seoarating from and leaving the platoon at the destination bus stop
 
+## Installation
+
+This repository uses a series of (Submodules)[https://git-scm.com/book/en/v2/Git-Tools-Submodules]. To clone with all files:
+```
+$ git clone --recuse-submodules https://github.com/elcano/MushrBus.git
+```
+
+### Note
 Install scripts and vehicle image setup found in **MicroAV** folder
