@@ -12,7 +12,7 @@ The MuSHR Bus is a scale model of the modular bus: http://viewer.zmags.com/publi
 
 This repository uses a series of [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To clone with all files:
 ```
-$ git clone --recuse-submodules https://github.com/elcano/MushrBus.git
+$ git clone --recurse-submodules https://github.com/elcano/MushrBus.git
 ```
 
 ### Note
