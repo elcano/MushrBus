@@ -10,3 +10,6 @@
 [submodule "mushr_ackermann_drive"]
 	path = mushr_ackermann_drive
 	url = https://github.com/alexlin2/mushr_ackermann_drive.git
+[submodule "Vision/YOLOv5-s-detection"]
+	path = Vision/YOLOv5-s-detection
+	url = https://github.com/Head-inthe-Cloud/YOLOv5-s-detection.git
