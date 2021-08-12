@@ -15,5 +15,13 @@ This repository uses a series of [Submodules](https://git-scm.com/book/en/v2/Git
 $ git clone --recurse-submodules https://github.com/elcano/MushrBus.git
 ```
 
+All individual pieces will need to be moved into the **catkin workspace** and then built. Use this support command or move them manually.
+```
+$ cp -r ~./MushrBus/mushr_ackermann_drive ~/catkin_ws/src && cp -r ~./MushrBus/jetson-module ~/catkin_ws/src && cp -r ~./MushrBus/jetson-tracker ~/catkin_ws/src
+$ cd ~/catkin_ws/
+$ catkin_make
+$ source devel/setup.sh
+```
+
 ### Note
 Install scripts and vehicle image setup found in **MicroAV** folder
