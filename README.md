@@ -43,4 +43,4 @@ source devel/setup.sh
 ```
 
 ### Note
-Install scripts and vehicle image setup found in [MicroAV](https://github.com/YoungJonathanP/MicroAV/tree/27e8a7a4b497964bc5ed9619dd6774350a6d298f) folder
+Install scripts and vehicle image setup found in [MicroAV](https://github.com/YoungJonathanP/MicroAV/tree/212c8c7034e3d3ae0a8a8b40605f7b38db1b0efb) folder
