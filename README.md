@@ -10,7 +10,7 @@ The MuSHR Bus is a scale model of the modular bus: http://viewer.zmags.com/publi
 
 ## Installation
 
-The commands present in this guide assume that the target jetson nano has access to the internet, and has the base image installed as described [here](https://github.com/YoungJonathanP/MicroAV/tree/27e8a7a4b497964bc5ed9619dd6774350a6d298f#:~:text=Download%20the%20base%20JetsonNano.zip)
+The commands present in this guide assume that the target jetson nano has access to the internet, and has the base image installed as described [here](https://github.com/YoungJonathanP/MicroAV/tree/212c8c7034e3d3ae0a8a8b40605f7b38db1b0efb)
 The instructions here supersede other installation instructions.
 
 This repository uses a series of [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
