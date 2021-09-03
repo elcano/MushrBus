@@ -42,5 +42,5 @@ Run the setup.sh
 source devel/setup.sh
 ```
 
-### Note
+### Notes
 Install scripts and vehicle image setup found in [MicroAV](https://github.com/YoungJonathanP/MicroAV/tree/212c8c7034e3d3ae0a8a8b40605f7b38db1b0efb) folder
