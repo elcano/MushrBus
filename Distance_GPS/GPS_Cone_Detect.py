@@ -10,6 +10,7 @@
 # output: cone(lat, long)
 
 import math
+import numpy as np
 
 def findConeGPS(car, cone):
     
@@ -18,8 +19,8 @@ def findConeGPS(car, cone):
     cone.lat = car.lat + (math.atan2(cone.y, earth_radius) * (180/math.pi))
     cos_lat = math.cos(math.pi/180 * car.lat)
     cone.lon = car.lon + (math.atan2(cone.x/cos_lat, earth_radius)) * (180/math.pi)
-    # print(cone.lat)
-    # print(cone.lon)
+    print(cone.lat)
+    print(cone.lon)
 
     return cone
 
@@ -41,6 +42,18 @@ def cone_orientation(car, cone):
 
     return correction_deg
 
+def R_Matrix(theta):
+   # define rotation matrix
+   theta = np.radians(theta)
+   r = np.array(( (np.cos(theta), -np.sin(theta)), (np.sin(theta),  np.cos(theta)) ))
+   print('rotation matrix:')
+   print(r)
+   # define vector
+   v = np.array((cone.x,cone.y))
+   print('vector v: ')
+   print(v)
+   print('Applied Rotation Matrix')
+   print(r.dot(v))
 
 def car():
     x = 0.0
@@ -62,5 +75,6 @@ if __name__ == '__main__':
     car.lon = -122.310880
     car.heading = 45.0
     cone.x = -7.315
-    cone.y = -21.260
+    cone.y = 5
     findConeGPS(car, cone)
+    R_Matrix(30)
