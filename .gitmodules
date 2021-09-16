@@ -1,9 +1,6 @@
 [submodule "MicroAV"]
 	path = MicroAV
 	url = https://github.com/YoungJonathanP/MicroAV
-[submodule "jetson-tracker"]
-	path = jetson-tracker
-	url = https://github.com/alexlin2/jetson-tracker.git
 [submodule "jetson-module"]
 	path = jetson-module
 	url = https://github.com/alexlin2/jetson-module.git
